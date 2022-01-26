@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" /> 
+  </head>
+  <body>
+    <div id="section1">
+        <img src="modafashion.png.png" title="Logo thata" width="325" height="117">
+    </div>
+    <div class="section2">
+      <p class="loja">Loja</p>
+      <p class="feminino">Feminino</p>
+      <p class="masculino">Masculino</p>
+      <p class="calcados">Calçados</p>
+      <p class="acessorios">Acessórios</p>
+      <p class="perfil">Perfil</p>
+      <p class="pagamento">Pagamentos</p>
+      <p class="pedido">Pedidos</p>
+      <p class="rastreamento">Rastreamento</p>
+      <p class="reembolso">Reembolso</p>
+    </div>
+    <div id="section3"><!--criando uma nova div para facilitar no css-->
+      <h1 id="valicard">
+        Adicionar Cartão de Crédito
+        <form id="teste">
+        
+        <input id="nome" name="nome" type="text" placeholder="Digite seu nome"><br><!--placeholder conteudo dentro do input-->
+        <input id="cc" type="text" placeholder="Digite o número do cartão" minlength="16" maxlength="16"><br>
+        <label>Validade<input id="mes" type="month" pattern="[0-9]+$" placeholder= "validade"></label><br>
+        <img src="cartao.png.png" id="cartao"  width="450" height="282">
+        <button class="validar" type="button" onclick="chamar()">Validar</button> 
+
+        <p id="nome2" type="text">oi </p><br>
+
+        
+      </form>
+      </h1>
+      <h1 id="vali"></h1> 
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
