@@ -1,0 +1,144 @@
+body {
+    background-color: #160045;
+   
+}
+
+.section2{
+    float: left; 
+}
+
+.loja{
+    color: #f5dadf;
+    font-size: 2rem; 
+    font-family: 'Candara';
+    padding-bottom: 3%;
+}
+
+.feminino{
+    color: #f5dadf;
+    font-size: 1rem;
+    font-family: 'Candara';
+    margin: 3%; /*espaço de paragrafo*/
+    padding-bottom: 3%; /*espaçamento entre linhas*/
+}
+
+.masculino{
+    color: #f5dadf;
+    font-size: 1rem;
+    font-family: 'Candara';
+    margin: 3%;
+    padding-bottom: 3%;
+}
+
+.calcados{
+    color: #f5dadf;
+    font-size: 1rem;
+    font-family: 'Candara';
+    margin: 3%;
+    padding-bottom: 3%;
+}
+
+.acessorios{
+    color: #f5dadf;
+    font-size: 1rem;
+    font-family: 'Candara';
+    margin: 3%;
+    padding-bottom: 3%;
+}
+
+.perfil{
+    color: #f5dadf;
+    font-size: 2rem; 
+    font-family: 'Candara';
+    padding-bottom: 3%; 
+    
+
+}
+
+.pagamento{
+    color: #f5dadf;
+    font-size: 1rem;
+    font-family: 'Candara';
+    margin: 3%; 
+    padding-bottom: 3%; 
+    
+    
+}
+
+.pedido{
+    color: #f5dadf;
+    font-size: 1rem;
+    font-family: 'Candara';
+    margin: 3%;
+    padding-bottom: 3%;
+    
+    
+}
+
+.rastreamento{
+    color: #f5dadf;
+    font-size: 1rem;
+    font-family: 'Candara';
+    margin: 3%;
+    padding-bottom: 3%;
+    
+    
+}
+
+.reembolso{
+    color: #f5dadf;
+    font-size: 1rem;
+    font-family: 'Candara';
+    margin: 3%;
+
+}
+
+#valicard{
+    color: #160045 ;
+    font-family: 'Arial';
+    text-align: center;
+    padding-top: 0.5cm; /*espaçamento de cima*/
+    float: right;
+    width: 85%; /*largura de campo*/
+    height: 770px; /*altura de campo*/
+    border-radius: 10px; /*arredondar a borda*/
+    background-color: rgb(243, 236, 243);
+
+}
+
+input{
+    text-align: center;
+    display: block;/*"substitui" float nao pode ser alterado align*/
+    width: 300px;
+    position: relative; /* relative para nao sobrepor os inputs*/
+    top: 150px; /*modo de posicionar em px*/
+    left: 180px;
+    margin-top: 50px;/*margem para espaçamento*/
+    
+}
+
+#cartao{
+    float: right;
+    position: relative;
+    padding-right: 6cm;
+    bottom: 170px ;
+}
+
+#nome2{
+    float: right;
+    border: none;
+    left: 400px;
+    
+
+}
+
+button{
+    position: relative;
+    float: center;
+    top: 280px;
+    background-color: #160045;
+    color: #f5dadf;
+    margin: 4px;
+    left: 300px;
+    
+}
