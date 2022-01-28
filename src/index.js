@@ -1,5 +1,6 @@
 import validator from './validator.js';
 
+<<<<<<< HEAD
 const Algoritmo = (cc) => {
     const lenght = cc.lenght;
     let count = 0;
@@ -34,4 +35,6 @@ const chamar = () => {
 
 
 
+=======
+>>>>>>> 9a383d95daa921ed389642491126763cb964325a
 console.log(validator);
