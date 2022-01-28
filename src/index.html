@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="style.css" /> 
   </head>
   <body>
-    <div id="section1">
-        <img src="modafashion.png.png" title="Logo thata" width="325" height="117">
-    </div>
-    <div class="section2">
+    <header id="section1">
+        <img src="modafashion.png" title="Logo thata" width="325" height="117">
+    </header>
+    <main class="section2">
       <p class="loja">Loja</p>
       <p class="feminino">Feminino</p>
       <p class="masculino">Masculino</p>
@@ -20,8 +20,8 @@
       <p class="pedido">Pedidos</p>
       <p class="rastreamento">Rastreamento</p>
       <p class="reembolso">Reembolso</p>
-    </div>
-    <div id="section3"><!--criando uma nova div para facilitar no css-->
+    </main>
+    <figure id="section3"><!--criando uma nova div para facilitar no css-->
       <h1 id="valicard">
         Adicionar Cartão de Crédito
         <form id="teste">
@@ -29,8 +29,8 @@
         <input id="nome" name="nome" type="text" placeholder="Digite seu nome"><br><!--placeholder conteudo dentro do input-->
         <input id="cc" type="text" placeholder="Digite o número do cartão" minlength="16" maxlength="16"><br>
         <input id="mes" type="month" pattern="[0-9]+$" placeholder= "validade"><br>
-        <img src="cartao.png.png" id="cartao"  width="450" height="282">
-        <button class="validar" type="button" onclick="chamar()">Validar</button> 
+        <img src="cartao.png" id="cartao"  width="450" height="282">
+        <input class="bot" type="submit" id="bot" onclick="chamar()"></input> 
 
         <p id="nome2" type="text"></p><br>
 
@@ -38,7 +38,7 @@
       </form>
       </h1>
       <h1 id="vali"></h1> 
-    </div>
+    </figure>
     <script src="index.js" type="module"></script>
   </body>
 </html>
