@@ -1,6 +1,7 @@
 import validator from './validator.js';
 
-<<<<<<< HEAD
+let cc = document.getElementById('cc').value;
+
 const Algoritmo = (cc) => {
     const lenght = cc.lenght;
     let count = 0;
@@ -18,23 +19,21 @@ for(let i = 0; i < lenght; i++) {
 return (count % 10) === 0;
 }
 
-const chamar = () => {
+const click = () => {
     const cc2 = document.getElementById('cc');
-    let alert = window.alert("")
+    const resultado = document.getElementById('nome2');
+    let mensagem = "";
 
-    if (Algoritmo(cc2.value))
-        alert = "Valido"
+if (Algoritmo(cc2.value))
+        mensagem = "Valido";
     else
-        alert = "Invalido"
+        mensagem = "Invalido";
     
-        cc2.textContent = alert;
-};
+        resultado.textContent = mensagem;
+    
 
+    
+}
 
-
-
-
-
-=======
->>>>>>> 9a383d95daa921ed389642491126763cb964325a
+    
 console.log(validator);
