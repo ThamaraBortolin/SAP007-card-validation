@@ -127,7 +127,8 @@ input{
 #nome2{
     float: right;
     border: none;
-    left: 400px;
+    position: absolute;
+    right: 440px;
     
 
 }
@@ -144,3 +145,4 @@ button{
     left: 300px;
     
 }
+
