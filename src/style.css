@@ -106,7 +106,7 @@ body {
 
 }
 
-input{
+.origin{
     text-align: center;
     display: block;/*"substitui" float nao pode ser alterado align*/
     width: 300px;
@@ -114,6 +114,21 @@ input{
     top: 150px; /*modo de posicionar em px*/
     left: 180px;
     margin-top: 50px;/*margem para espaçamento*/
+    
+}
+
+#botao{
+    text-align: center;
+    display: block;
+    width: 120px;
+    height: 30px;
+    position: relative; 
+    border-radius: 17px;
+    background-color: #160045;
+    color: #f5dadf;
+    top: 150px; 
+    left: 270px;
+    margin-top: 50px;
     
 }
 
@@ -128,21 +143,66 @@ input{
     float: right;
     border: none;
     position: absolute;
-    right: 440px;
+    right: 500px;
+    bottom: 100px;
     
 
 }
 
-
-button{
-
-    position: relative;
-    float: center;
-    top: 280px;
-    background-color: #160045;
+#cartaobox{
+    float: right;
+    position: absolute;
+    border: #160045;
     color: #f5dadf;
-    margin: 4px;
-    left: 300px;
-    
+    background-color: #160045;
+    border-radius: 10px;
+    right: 300px;
+    top: 350px;
+    width: 500px;
+    height: 300px;
 }
+
+#chip{
+    position: absolute;
+    border: 1px;
+    right: 380px;
+    top: 70px;
+    border-radius: 20px ;
+}
+
+.clone1{
+    float: right;
+    background-color: transparent;
+    color: #f5dadf;
+    font-family: 'Helvetica';
+    font-size: 45%;
+    letter-spacing: 2px;
+    border-color: white;
+}
+
+#clonenome{
+    position: absolute;
+    top: 80%;
+    right: 30%;
+    width: 300px;
+
+}
+
+#clonecc{
+    position: absolute;
+    top: 55%;
+    right: 10%;
+    width: 400px;
+    font-size: 60%;
+}
+
+#clonemes{
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    width: 100px;
+}
+
+
+
 

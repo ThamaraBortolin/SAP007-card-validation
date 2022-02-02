@@ -31,12 +31,18 @@
         Adicionar Cartão de Crédito
         <form id="teste">
         
-        <input id="nome" name="nome" type="text" placeholder="Digite seu nome"><br><!--placeholder conteudo dentro do input-->
-        <input id="cc" type="text" placeholder="Digite o número do cartão" minlength="13" maxlength="16" required><br>
-        <input id="mes" type="month" pattern="[0-9]+$" placeholder= "validade"><br>
-        <input class="butao" type="button" id="botao" Value="Validar"><br>
-        <p id="clone"></p>
+        <input id="nome" class="origin" type="text" placeholder="Digite seu nome"><br><!--placeholder conteudo dentro do input-->
+        <input id="cc" class="origin" type="text" onkeypress="return event.charCode >= 48 && event.charCode <=57" placeholder="Digite o número do cartão" maxlength="16" required><br><!--apenas numeros,r direto no html pelo id das teclas-->
+        <input id="mes" class="origin" type="month" pattern="[0-9]+$" placeholder= "validade"><br>
+        <input class="butao" type="button" id="botao" Value="Validar Cartão"><br>
         <p class="text" id="nome2" ></p>
+
+        <h2 id="cartaobox">
+        <img src="chip.jpg" title="chip" width="85px" height="75px" id="chip">
+        <input id="clonenome" class="clone1" disabled><!--esses inputs estao desabilitados pois apenas receberam valor-->
+        <input id="clonecc"  class="clone1" disabled>
+        <input id="clonemes" class="clone1" disabled>
+        </h2>
         
         
         
