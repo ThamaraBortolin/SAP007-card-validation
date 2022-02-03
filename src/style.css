@@ -178,6 +178,7 @@ body {
     font-size: 45%;
     letter-spacing: 2px;
     border-color: white;
+    border-color: transparent;
 }
 
 #clonenome{
@@ -202,7 +203,3 @@ body {
     right: 10%;
     width: 100px;
 }
-
-
-
-
