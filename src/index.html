@@ -32,8 +32,8 @@
         
         <input id="nome" class="origin" type="text" placeholder="Digite seu nome"><br><!--placeholder conteudo dentro do input-->
         <input id="cc" class="origin" type="text" onkeypress="return event.charCode >= 48 && event.charCode <=57" placeholder="Digite o número do cartão" maxlength="16" required><br><!--apenas numeros,r direto no html pelo id das teclas-->
-        <label id="valid">VALIDADE</label><input id="mes" class="origin" type="text" onkeypress="return event.charCode >= 48 && event.charCode <=57">
-        <input id="ano" class="origin" type="text" onkeypress="return event.charCode >= 48 && event.charCode <=57"><br>
+        <label id="valid">VALIDADE</label><input id="mes" class="origin" type="text" onkeypress="return event.charCode >= 48 && event.charCode <=57" placeholder="Mês">
+        <input id="ano" class="origin" type="text" onkeypress="return event.charCode >= 48 && event.charCode <=57" placeholder="Ano"><br>
         <input class="butao" type="button" id="botao" value="Validar Cartão"><br>
         <p class="text" id="nome2" ></p>
 
@@ -43,8 +43,8 @@
         <input id="clonecc"  class="clone1" disabled>
         <input id="clonemes" class="clone1" disabled>
         </h2>
-        <img src="img/github.png" width="133" height="133" class="github">
-        <img src="img/linkedin.png" width="136" height="107" class="linkedin">
+        <img src="img/github.png" width="125" height="125" class="github" id="github">
+        <img src="img/linkedin.png" width="127" height="100" class="linkedin" id="linkedin">
       </form>
       </h1>
       </div>

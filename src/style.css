@@ -1,5 +1,5 @@
 body {
-    background-color: #160045;
+    background-color: rgb(22, 0, 69);
 }
 
 .logo{
@@ -8,6 +8,8 @@ body {
 }
 
 .section2{
+    position: absolute;
+    top: 150px;
     float: left; 
 }
 
@@ -103,6 +105,7 @@ label{
     top: 170px; 
     left: 270px;
     margin-top: 50px;
+    cursor: pointer;
     
 }
 
@@ -169,7 +172,7 @@ label{
 #clonemes{
     position: absolute;
     top: 80%;
-    right: 10%;
+    right: 3%;
     width: 100px;
 }
 
@@ -178,6 +181,7 @@ label{
     float: right;
     left: 1500px;
     bottom: 120px;
+    cursor: pointer;
 }
 
 .linkedin{
@@ -185,4 +189,6 @@ label{
     float: right;
     left: 1500px;
     bottom: 10px;
+    cursor: pointer;
 }
+
