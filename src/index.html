@@ -6,48 +6,45 @@
     <link rel="stylesheet" href="style.css" /> 
   </head>
   <body>
-    <header id="section1">
-        <img src="modafashion.png" title="Logo thata" width="325" height="117">
+    <header class="section1">
+        <img src="img/modafashion.png" title="Logo thata" width="400" height="144" class="logo" position = "center">
     </header>
     <main class="section2">
 
-      <p class="loja">Loja</p>
-      <p class="feminino">Feminino</p>
-      <p class="masculino">Masculino</p>
-      <p class="calcados">Calçados</p>
-      <p class="acessorios">Acessórios</p>
-      <p class="perfil">Perfil</p>
-      <p class="pagamento">Pagamentos</p>
-      <p class="pedido">Pedidos</p>
-      <p class="rastreamento">Rastreamento</p>
-      <p class="reembolso">Reembolso</p>
+      <p class="prin">Loja </p>
+      <p class="sec1">Feminino</p>
+      <p class="sec1">Masculino</p>
+      <p class="sec1">Calçados</p>
+      <p class="sec1">Acessórios</p>
+      <p class="prin">Perfil </p>
+      <p class="sec1">Pagamentos</p>
+      <p class="sec1">Pedidos</p>
+      <p class="sec1">Rastreamento</p>
+      <p class="sec1">Reembolso</p>
     </main>
     <figure id="section3.1"><!--criando uma nova div para facilitar no css-->
 
     <div id="section3"><!--criando uma nova div para facilitar no css-->
 
       <h1 id="valicard">
-        Adicionar Cartão de Crédito
+        <p class = "add">Adicionar Cartão de Crédito</p>
         <form id="teste">
         
         <input id="nome" class="origin" type="text" placeholder="Digite seu nome"><br><!--placeholder conteudo dentro do input-->
         <input id="cc" class="origin" type="text" onkeypress="return event.charCode >= 48 && event.charCode <=57" placeholder="Digite o número do cartão" maxlength="16" required><br><!--apenas numeros,r direto no html pelo id das teclas-->
-        <input id="mes" class="origin" type="month" pattern="[0-9]+$" placeholder= "validade"><br>
+        <label id="valid">VALIDADE</label><input id="mes" class="origin" type="text" onkeypress="return event.charCode >= 48 && event.charCode <=57">
+        <input id="ano" class="origin" type="text" onkeypress="return event.charCode >= 48 && event.charCode <=57"><br>
         <input class="butao" type="button" id="botao" value="Validar Cartão"><br>
         <p class="text" id="nome2" ></p>
 
         <h2 id="cartaobox">
-        <img src="chip.jpg" title="chip" width="85px" height="75px" id="chip">
+        <img src="img/chip.jpg" title="chip" width="75px" height="65px" id="chip">
         <input id="clonenome" class="clone1" disabled><!--esses inputs estao desabilitados pois apenas receberam valor-->
         <input id="clonecc"  class="clone1" disabled>
         <input id="clonemes" class="clone1" disabled>
         </h2>
-        
-        
-        
-
-
-
+        <img src="img/github.png" width="133" height="133" class="github">
+        <img src="img/linkedin.png" width="136" height="107" class="linkedin">
       </form>
       </h1>
       </div>

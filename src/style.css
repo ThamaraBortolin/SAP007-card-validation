@@ -1,20 +1,28 @@
 body {
     background-color: #160045;
-   
+}
+
+.logo{
+    position: absolute;
+    left: 750px;
 }
 
 .section2{
     float: left; 
 }
 
-.loja{
+.prin{
     color: #f5dadf;
     font-size: 2rem; 
     font-family: 'Candara';
     padding-bottom: 3%;
 }
 
-.feminino{
+.prin::after{
+    content: "✦";
+}
+
+.sec1{
     color: #f5dadf;
     font-size: 1rem;
     font-family: 'Candara';
@@ -22,98 +30,63 @@ body {
     padding-bottom: 3%; /*espaçamento entre linhas*/
 }
 
-.masculino{
-    color: #f5dadf;
-    font-size: 1rem;
-    font-family: 'Candara';
-    margin: 3%;
-    padding-bottom: 3%;
-}
-
-.calcados{
-    color: #f5dadf;
-    font-size: 1rem;
-    font-family: 'Candara';
-    margin: 3%;
-    padding-bottom: 3%;
-}
-
-.acessorios{
-    color: #f5dadf;
-    font-size: 1rem;
-    font-family: 'Candara';
-    margin: 3%;
-    padding-bottom: 3%;
-}
-
-.perfil{
-    color: #f5dadf;
-    font-size: 2rem; 
-    font-family: 'Candara';
-    padding-bottom: 3%; 
-    
-
-}
-
-.pagamento{
-    color: #f5dadf;
-    font-size: 1rem;
-    font-family: 'Candara';
-    margin: 3%; 
-    padding-bottom: 3%; 
-    
-    
-}
-
-.pedido{
-    color: #f5dadf;
-    font-size: 1rem;
-    font-family: 'Candara';
-    margin: 3%;
-    padding-bottom: 3%;
-    
-    
-}
-
-.rastreamento{
-    color: #f5dadf;
-    font-size: 1rem;
-    font-family: 'Candara';
-    margin: 3%;
-    padding-bottom: 3%;
-    
-    
-}
-
-.reembolso{
-    color: #f5dadf;
-    font-size: 1rem;
-    font-family: 'Candara';
-    margin: 3%;
-
-}
-
 #valicard{
     color: #160045 ;
     font-family: 'Arial';
-    text-align: center;
     padding-top: 0.5cm; /*espaçamento de cima*/
+    position: absolute;
     float: right;
-    width: 85%; /*largura de campo*/
-    height: 770px; /*altura de campo*/
+    top: 170px;
+    left: 200px;
+    border-right: 100px;
+    width: 75%; /*largura de campo*/
+    height: 650px; /*altura de campo*/
     border-radius: 10px; /*arredondar a borda*/
     background-color: rgb(243, 236, 243);
 
+}
+
+.add{
+    position: absolute;
+    left: 500px;
 }
 
 .origin{
     text-align: center;
     display: block;/*"substitui" float nao pode ser alterado align*/
     width: 300px;
+    height: 25px;
     position: relative; /* relative para nao sobrepor os inputs*/
     top: 150px; /*modo de posicionar em px*/
     left: 180px;
     margin-top: 50px;/*margem para espaçamento*/
+    border-radius: 10px;
+    border-color: #c2b2e9;
+    background-color: #c2b2e9;    
+}
+
+.origin::placeholder{
+    color: #160045;
+}
+
+label{
+    position: absolute;
+    display: inline;
+    font-size: small;
+    top: 460px;
+    left: 220px;
+}
+
+#mes{
+    width: 70px;
+    left: 300px;
+    display: inline;
+}
+
+#ano{
+    display: inline;
+    left: 300px;
+    width: 70px;
     
 }
 
@@ -125,26 +98,22 @@ body {
     position: relative; 
     border-radius: 17px;
     background-color: #160045;
-    color: #f5dadf;
-    top: 150px; 
+    border-color: rgb(22, 0, 69);
+    color: rgb(245, 218, 223);
+    top: 170px; 
     left: 270px;
     margin-top: 50px;
     
 }
 
-#cartao{
-    float: right;
-    position: relative;
-    padding-right: 6cm;
-    bottom: 170px ;
-}
+
 
 #nome2{
     float: right;
     border: none;
     position: absolute;
-    right: 500px;
-    bottom: 100px;
+    right: 380px;
+    bottom: 50px;
     
 
 }
@@ -156,8 +125,8 @@ body {
     color: #f5dadf;
     background-color: #160045;
     border-radius: 10px;
-    right: 300px;
-    top: 350px;
+    right: 200px;
+    top: 180px;
     width: 500px;
     height: 300px;
 }
@@ -202,4 +171,18 @@ body {
     top: 80%;
     right: 10%;
     width: 100px;
+}
+
+.github{
+    position: absolute;
+    float: right;
+    left: 1500px;
+    bottom: 120px;
+}
+
+.linkedin{
+    position: absolute;
+    float: right;
+    left: 1500px;
+    bottom: 10px;
 }
