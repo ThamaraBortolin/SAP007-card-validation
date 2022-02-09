@@ -37,14 +37,14 @@ foram implementados com base em sites de compras que utilizam do validador de ca
 Abaixo está o protótipo desenhado do site (sua idéia inicial), e logo em seguida
 o site finalizado e como funciona sua validação.
 
-![Prototipo](src\img\prototipo.jpg)
+![Prototipo](https://scontent.fcpq7-1.fna.fbcdn.net/v/t39.30808-6/273698097_2696168320529479_4130432194105451955_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeG2ThV2oTeAnF6yfANIoXuk9iCHJmf8w9b2IIcmZ_zD1tzKJd0wYDtdBDiZXYnKd8nf10VAuXQmrjniRtpc0jz9&_nc_ohc=hKUXTO7WepMAX8HQPbr&_nc_ht=scontent.fcpq7-1.fna&oh=00_AT8whYzuB9kPphV_-Wa6n7gv0WN3JfhUGz4LEPUz1QTYbA&oe=62098C5D)
 
 Abaixo está o site onde podemos ver os locais para colocar os dados e o botão de validar.
 
-![Site1](src\img\site1.png)
+![Site1](https://scontent.fcpq7-1.fna.fbcdn.net/v/t39.30808-6/273728664_2696167390529572_7483871660209667724_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeEzjIhlt8unNXGibEhY-NK4VVOv-wbl2rNVU6_7BuXas1wwwVbWeG4o_bj-GRIruKuP88gNORjGOtpcowSb4VEa&_nc_ohc=EMyVflfORPUAX-iuGtT&tn=Z-_nUoxcaL5NOknl&_nc_ht=scontent.fcpq7-1.fna&oh=00_AT8yn7WTTx1y83QYTpScrJ5ZbACsi54cW4apyPN2eTD7RQ&oe=6209C559)
 
 A seguir um exemplo onde o cartão aparece como válido e inválido respectivamente.
 
-![Site2](src\img\site2.png)
+![Site2](https://scontent.fcpq7-1.fna.fbcdn.net/v/t39.30808-6/273638598_2696167367196241_3304357877238561877_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeENRSPMIUmUlBHkYZORc8dbuNOuFTuLrPC4064VO4us8PtOvqVgzscMPNL9OlfZrAiEz7_3XIe5WXpfBCbVWoA6&_nc_ohc=n-BbS-LXag4AX9Zk9VA&tn=Z-_nUoxcaL5NOknl&_nc_ht=scontent.fcpq7-1.fna&oh=00_AT8F6ygSvkkD4WcOlEwN4tZJFwA1LE7jZx2ie4YtR2eydw&oe=62096AC0)
 
-![Site3](https://scontent.fcpq7-1.fna.fbcdn.net/v/t39.30808-6/273685731_2696166967196281_6580001088206503181_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeFQRe9Vqet2l5sZwySrbL7S6GgzClLBjR7oaDMKUsGNHt3QZYFE6DBvSOsMOae8Fvb8just9cgrTAl3NXJke9eF&_nc_ohc=VZRBeomty1EAX8QTL_E&_nc_ht=scontent.fcpq7-1.fna&oh=00_AT_lfcB3AXF39te2MDBMmOg_3UBGznHef59vUt0knCjeAw&oe=62085782)
+![Site3](https://scontent.fcpq7-1.fna.fbcdn.net/v/t39.30808-6/273742267_2696167377196240_1764565853512413850_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeENxOAEGdcmUZK-e9OjkkeQN4TkFgqLG4c3hOQWCosbh4qBiRsvFNUo7rNc0M7wBgg9LcRtwdB22eXBE_8OwOah&_nc_ohc=qArYNyIUue8AX-xgpSJ&_nc_ht=scontent.fcpq7-1.fna&oh=00_AT9vstlZyToqdZadI8eUqeVzzjo8v3Nqp6d7gAyv5spZxA&oe=620827A0)
