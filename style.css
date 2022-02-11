@@ -1,0 +1,194 @@
+body {
+    background-color: rgb(22, 0, 69);
+}
+
+.logo{
+    position: absolute;
+    left: 750px;
+}
+
+.section2{
+    position: absolute;
+    top: 170px;
+    float: left; 
+}
+
+.prin{
+    color: #f5dadf;
+    font-size: 2rem; 
+    font-family: 'Candara';
+    padding-bottom: 3%;
+}
+
+.prin::after{
+    content: "✦";/*coloca a imagem de estrela depois da tag html atrelada*/
+}
+
+.sec1{
+    color: #f5dadf;
+    font-size: 1rem;
+    font-family: 'Candara';
+    margin: 3%; 
+    padding-bottom: 3%; 
+}
+
+#valicard{
+    color: #160045 ;
+    font-family: 'Arial';
+    padding-top: 0.5cm; 
+    position: absolute;
+    float: right;
+    top: 170px;
+    left: 200px;
+    border-right: 100px;
+    width: 75%; 
+    height: 650px; 
+    border-radius: 10px; 
+    background-color: rgb(243, 236, 243);
+
+}
+
+.add{
+    position: absolute;
+    left: 500px;
+}
+
+.origin{
+    text-align: center;
+    display: block;/*"substitui" float nao pode ser alterado align*/
+    width: 300px;
+    height: 25px;
+    position: relative; /* relative para nao sobrepor os inputs*/
+    top: 150px; 
+    left: 180px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border-color: #c2b2e9;
+    background-color: #c2b2e9;    
+}
+
+.origin::placeholder{
+    color: #160045;
+}
+
+label{
+    position: absolute;
+    display: inline;
+    font-size: small;
+    top: 460px;
+    left: 220px;
+}
+
+#mes{
+    width: 70px;
+    left: 300px;
+    display: inline;
+}
+
+#ano{
+    display: inline;
+    left: 300px;
+    width: 70px;
+    
+}
+
+#botao{
+    text-align: center;
+    display: block;
+    width: 120px;
+    height: 30px;
+    position: relative; 
+    border-radius: 17px;
+    background-color: #160045;
+    border-color: rgb(22, 0, 69);
+    color: rgb(245, 218, 223);
+    top: 170px; 
+    left: 270px;
+    margin-top: 50px;
+    cursor: pointer;/*estilo do cursor ao passar em cima do id de tag*/
+    
+}
+
+
+
+#nome2{
+    float: right;
+    border: none;
+    position: absolute;
+    right: 380px;
+    bottom: 50px;
+    
+
+}
+
+#cartaobox{
+    float: right;
+    position: absolute;
+    border: #160045;
+    color: #f5dadf;
+    background-color: #160045;
+    border-radius: 10px;
+    right: 200px;
+    top: 180px;
+    width: 500px;
+    height: 300px;
+}
+
+#chip{
+    position: absolute;
+    border: 1px;
+    right: 380px;
+    top: 70px;
+    border-radius: 20px ;
+}
+
+.clone1{
+    float: right;
+    background-color: transparent;
+    color: #f5dadf;
+    font-family: 'Helvetica';
+    font-size: 45%;
+    letter-spacing: 2px;
+    border-color: white;
+    border-color: transparent;
+}
+
+#clonenome{
+    position: absolute;
+    top: 80%;
+    right: 30%;
+    width: 300px;
+
+}
+
+#clonecc{
+    position: absolute;
+    top: 55%;
+    right: 10%;
+    width: 400px;
+    font-size: 60%;
+}
+
+#clonemes{
+    position: absolute;
+    top: 80%;
+    right: 3%;
+    width: 100px;
+}
+
+.github{
+    position: absolute;
+    float: right;
+    left: 1500px;
+    bottom: 120px;
+    cursor: pointer;
+}
+
+.linkedin{
+    position: absolute;
+    float: right;
+    left: 1500px;
+    bottom: 10px;
+    cursor: pointer;
+}
+

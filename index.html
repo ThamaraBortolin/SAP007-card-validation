@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" /> 
+  </head>
+  <body>
+    <header class="section1">
+        <img src="img/modafashion.png" title="Logo thata" width="400" height="144" class="logo" position = "center">
+    </header>
+    <nav class="section2">
+      <ul>
+      <li class="prin">Loja </li>
+      <li class="sec1">Feminino</li>
+      <li class="sec1">Masculino</li>
+      <li class="sec1">Calçados</li>
+      <li class="sec1">Acessórios</li>
+      <li class="prin">Perfil </li>
+      <li class="sec1">Pagamentos</li>
+      <li class="sec1">Pedidos</li>
+      <li class="sec1">Rastreamento</li>
+      <li class="sec1">Reembolso</li>
+      </ul>
+    </nav>
+
+    <main id="section3"><!--criando uma nova div para facilitar no css-->
+
+      <h1 id="valicard">
+        <p class = "add">Adicionar Cartão de Crédito</p>
+        <form id="teste">
+        
+        <input id="nome" class="origin" type="text" placeholder="Digite seu nome"><br><!--placeholder conteudo dentro do input-->
+        <input id="cc" class="origin" type="text" onkeypress="return event.charCode >= 48 && event.charCode <=57" placeholder="Digite o número do cartão" maxlength="16" required><br>
+        <label id="valid">VALIDADE</label><input id="mes" class="origin" type="text" onkeypress="return event.charCode >= 48 && event.charCode <=57" placeholder="Mês">
+        <input id="ano" class="origin" type="text" onkeypress="return event.charCode >= 48 && event.charCode <=57" placeholder="Ano"><br><!--apenas numeros,r direto no html pelo id das teclas-->
+        <input class="butao" type="button" id="botao" value="Validar Cartão"><br>
+        <p class="text" id="nome2" ></p>
+
+        <h2 id="cartaobox">
+        <img src="img/chip.jpg" title="chip" width="75px" height="65px" id="chip">
+        <input id="clonenome" class="clone1" disabled><!--esses inputs estao desabilitados pois apenas receberam valor-->
+        <input id="clonecc"  class="clone1" disabled>
+        <input id="clonemes" class="clone1" disabled>
+        </h2>
+        <figure>
+        <img src="img/github.png" width="125" height="125" class="github" id="github">
+        <img src="img/linkedin.png" width="127" height="100" class="linkedin" id="linkedin">
+        </figure>
+      </form>
+      </h1>
+    </main>
+    
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
