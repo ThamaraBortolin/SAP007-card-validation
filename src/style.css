@@ -9,7 +9,7 @@ body {
 
 .section2{
     position: absolute;
-    top: 150px;
+    top: 170px;
     float: left; 
 }
 
@@ -21,29 +21,29 @@ body {
 }
 
 .prin::after{
-    content: "✦";
+    content: "✦";/*coloca a imagem de estrela depois da tag html atrelada*/
 }
 
 .sec1{
     color: #f5dadf;
     font-size: 1rem;
     font-family: 'Candara';
-    margin: 3%; /*espaço de paragrafo*/
-    padding-bottom: 3%; /*espaçamento entre linhas*/
+    margin: 3%; 
+    padding-bottom: 3%; 
 }
 
 #valicard{
     color: #160045 ;
     font-family: 'Arial';
-    padding-top: 0.5cm; /*espaçamento de cima*/
+    padding-top: 0.5cm; 
     position: absolute;
     float: right;
     top: 170px;
     left: 200px;
     border-right: 100px;
-    width: 75%; /*largura de campo*/
-    height: 650px; /*altura de campo*/
-    border-radius: 10px; /*arredondar a borda*/
+    width: 75%; 
+    height: 650px; 
+    border-radius: 10px; 
     background-color: rgb(243, 236, 243);
 
 }
@@ -59,9 +59,9 @@ body {
     width: 300px;
     height: 25px;
     position: relative; /* relative para nao sobrepor os inputs*/
-    top: 150px; /*modo de posicionar em px*/
+    top: 150px; 
     left: 180px;
-    margin-top: 50px;/*margem para espaçamento*/
+    margin-top: 50px;
     border-radius: 10px;
     border-color: #c2b2e9;
     background-color: #c2b2e9;    
@@ -105,7 +105,7 @@ label{
     top: 170px; 
     left: 270px;
     margin-top: 50px;
-    cursor: pointer;
+    cursor: pointer;/*estilo do cursor ao passar em cima do id de tag*/
     
 }
 
