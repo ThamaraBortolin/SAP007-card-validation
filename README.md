@@ -48,3 +48,4 @@ A seguir um exemplo onde o cartão aparece como válido e inválido respectivame
 ![Site2](https://scontent.fcpq7-1.fna.fbcdn.net/v/t39.30808-6/273638598_2696167367196241_3304357877238561877_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeENRSPMIUmUlBHkYZORc8dbuNOuFTuLrPC4064VO4us8PtOvqVgzscMPNL9OlfZrAiEz7_3XIe5WXpfBCbVWoA6&_nc_ohc=n-BbS-LXag4AX9Zk9VA&tn=Z-_nUoxcaL5NOknl&_nc_ht=scontent.fcpq7-1.fna&oh=00_AT8F6ygSvkkD4WcOlEwN4tZJFwA1LE7jZx2ie4YtR2eydw&oe=62096AC0)
 
 ![Site3](https://scontent.fcpq7-1.fna.fbcdn.net/v/t39.30808-6/273742267_2696167377196240_1764565853512413850_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeENxOAEGdcmUZK-e9OjkkeQN4TkFgqLG4c3hOQWCosbh4qBiRsvFNUo7rNc0M7wBgg9LcRtwdB22eXBE_8OwOah&_nc_ohc=qArYNyIUue8AX-xgpSJ&_nc_ht=scontent.fcpq7-1.fna&oh=00_AT9vstlZyToqdZadI8eUqeVzzjo8v3Nqp6d7gAyv5spZxA&oe=620827A0)
+

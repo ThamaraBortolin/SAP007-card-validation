@@ -1,56 +1,77 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" /> 
-  </head>
-  <body>
-    <header class="section1">
-        <img src="img/modafashion.png" title="Logo thata" width="400" height="144" class="logo" position = "center">
-    </header>
-    <main class="section2">
 
-      <p class="prin">Loja </p>
-      <p class="sec1">Feminino</p>
-      <p class="sec1">Masculino</p>
-      <p class="sec1">Calçados</p>
-      <p class="sec1">Acessórios</p>
-      <p class="prin">Perfil </p>
-      <p class="sec1">Pagamentos</p>
-      <p class="sec1">Pedidos</p>
-      <p class="sec1">Rastreamento</p>
-      <p class="sec1">Reembolso</p>
-    </main>
-    <figure id="section3.1"><!--criando uma nova div para facilitar no css-->
+<head>
+  <meta charset="utf-8" />
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <div id="section3"><!--criando uma nova div para facilitar no css-->
+<body>
+  <header class="section1">
+    <img src="img/modafashion.png" title="Logo thata" width="400" height="144" class="logo" position="center">
+  </header>
+  <section class="main">
+    <nav class="section2">
+      <ul>
+        <li class="prin">Loja </li>
+        <li class="sec1">Feminino</li>
+        <li class="sec1">Masculino</li>
+        <li class="sec1">Calçados</li>
+        <li class="sec1">Acessórios</li>
+        <li class="prin">Perfil </li>
+        <li class="sec1">Pagamentos</li>
+        <li class="sec1">Pedidos</li>
+        <li class="sec1">Rastreamento</li>
+        <li class="sec1">Reembolso</li>
+      </ul>
+    </nav>
 
-      <h1 id="valicard">
-        <p class = "add">Adicionar Cartão de Crédito</p>
-        <form id="teste">
-        
-        <input id="nome" class="origin" type="text" placeholder="Digite seu nome"><br><!--placeholder conteudo dentro do input-->
-        <input id="cc" class="origin" type="text" onkeypress="return event.charCode >= 48 && event.charCode <=57" placeholder="Digite o número do cartão" maxlength="16" required><br><!--apenas numeros,r direto no html pelo id das teclas-->
-        <label id="valid">VALIDADE</label><input id="mes" class="origin" type="text" onkeypress="return event.charCode >= 48 && event.charCode <=57" placeholder="Mês">
-        <input id="ano" class="origin" type="text" onkeypress="return event.charCode >= 48 && event.charCode <=57" placeholder="Ano"><br>
-        <input class="butao" type="button" id="botao" value="Validar Cartão"><br>
-        <p class="text" id="nome2" ></p>
+    <main id="section3">
+      <!--criando uma nova div para facilitar no css-->
 
-        <h2 id="cartaobox">
-        <img src="img/chip.jpg" title="chip" width="75px" height="65px" id="chip">
-        <input id="clonenome" class="clone1" disabled><!--esses inputs estao desabilitados pois apenas receberam valor-->
-        <input id="clonecc"  class="clone1" disabled>
-        <input id="clonemes" class="clone1" disabled>
-        </h2>
-        <img src="img/github.png" width="125" height="125" class="github" id="github">
-        <img src="img/linkedin.png" width="127" height="100" class="linkedin" id="linkedin">
-      </form>
+      <h1>
+        <p class="add">Adicionar Cartão de Crédito</p>
       </h1>
-      </div>
-    </figure>
-    
 
-    <script src="index.js" type="module"></script>
-  </body>
+      <form id="inputs">
+        <section class="forms">
+          <input id="nome" class="dados" type="text" placeholder="Digite seu nome">
+          <input id="cc" class="dados" type="text" onkeypress="return event.charCode >= 48 && event.charCode <=57"
+            placeholder="Digite o número do cartão" maxlength="16" required>
+          <section class="valid">
+            <label id="valid">VALIDADE</label>
+            <input id="mes" class="date" type="text" onkeypress="return event.charCode >= 48 && event.charCode <=57"
+              placeholder="Mês">
+            <input id="ano" class="date" type="text" onkeypress="return event.charCode >= 48 && event.charCode <=57"
+              placeholder="Ano">
+          </section>
+
+          <button class="botao" type="button" id="botao">Validar Cartão</button>
+
+        </section>
+        <section id="cartaobox" class="cartao">
+          <img src="img/chip.jpg" title="chip" width="75px" height="65px" id="chip" class="chipImg">
+          <input id="clonenome" class="cardInfo" disabled>
+          <input id="clonecc" class="cardInfo" disabled>
+          <input id="clonemes" class="dateInfo" disabled>
+
+        <p class="text" id="nome2"></p>
+      </section>
+      </form>
+
+    </main>
+    <figure>
+      <a href = "https://github.com/ThamaraBortolin" target="_blank">
+      <img src="img/github.png" width="125" height="125" class="github" id="github">
+      </a>
+      <a href = "https://www.linkedin.com/in/thamara-bortolin1999/" target="_blank">
+      <img src="img/linkedin.png" width="127" height="100" class="linkedin" id="linkedin">
+      </a>
+    </figure>
+  </section>
+
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>

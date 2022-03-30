@@ -1,194 +1,161 @@
-body {
-    background-color: rgb(22, 0, 69);
+
+  /* #160045;
+#f5dadf*/
+
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
-.logo{
-    position: absolute;
-    left: 750px;
+body{
+  background: #160045;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #f5dadf;
 }
 
-.section2{
-    position: absolute;
-    top: 150px;
-    float: left; 
+header{
+  display: flex;
+  justify-content: center;
 }
 
-.prin{
-    color: #f5dadf;
-    font-size: 2rem; 
-    font-family: 'Candara';
-    padding-bottom: 3%;
+.main{
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 5% ;
 }
 
-.prin::after{
-    content: "✦";
+nav{
+  margin-left: 1%;
 }
 
-.sec1{
-    color: #f5dadf;
-    font-size: 1rem;
-    font-family: 'Candara';
-    margin: 3%; /*espaço de paragrafo*/
-    padding-bottom: 3%; /*espaçamento entre linhas*/
+li{
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 10%;
 }
 
-#valicard{
-    color: #160045 ;
-    font-family: 'Arial';
-    padding-top: 0.5cm; /*espaçamento de cima*/
-    position: absolute;
-    float: right;
-    top: 170px;
-    left: 200px;
-    border-right: 100px;
-    width: 75%; /*largura de campo*/
-    height: 650px; /*altura de campo*/
-    border-radius: 10px; /*arredondar a borda*/
-    background-color: rgb(243, 236, 243);
-
+main{
+  width: 70%;
+  height: 650px;
+  display: flex;
+  background-color: #f5dadf;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
 }
+
+form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
 
 .add{
-    position: absolute;
-    left: 500px;
+  color: #160045;
+  margin-top: 10%;
+  font-size: 2vmax;
 }
 
-.origin{
-    text-align: center;
-    display: block;/*"substitui" float nao pode ser alterado align*/
-    width: 300px;
-    height: 25px;
-    position: relative; /* relative para nao sobrepor os inputs*/
-    top: 150px; /*modo de posicionar em px*/
-    left: 180px;
-    margin-top: 50px;/*margem para espaçamento*/
-    border-radius: 10px;
-    border-color: #c2b2e9;
-    background-color: #c2b2e9;    
+.forms{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+}
+
+
+.dados{
+  height:3vh;
+  width: 100%;
+  border: solid 2px #160045;
+  border-radius: 5px;
+  background-color: #f1c2cb;
+  text-align: center;
+  margin-bottom: 20%;
 }
 
 .origin::placeholder{
-    color: #160045;
+  color: #160045;
+  text-align: center;
 }
 
-label{
-    position: absolute;
-    display: inline;
-    font-size: small;
-    top: 460px;
-    left: 220px;
+.valid{
+  display: inline-flex;
+  justify-content:center;
 }
 
-#mes{
-    width: 70px;
-    left: 300px;
-    display: inline;
+.date{
+  width: 20%;
+  height:20px;
+  border: solid 2px #160045;
+  border-radius: 5px;
+  background-color: #f1c2cb;
+  text-align: center;
+  margin: 0% 2% 10% 0%;
 }
 
-#ano{
-    display: inline;
-    left: 300px;
-    width: 70px;
-    
+#valid{
+  color: #160045;
+  margin-right: 2%;
+  font-weight: bolder;
 }
 
-#botao{
-    text-align: center;
-    display: block;
-    width: 120px;
-    height: 30px;
-    position: relative; 
-    border-radius: 17px;
-    background-color: #160045;
-    border-color: rgb(22, 0, 69);
-    color: rgb(245, 218, 223);
-    top: 170px; 
-    left: 270px;
-    margin-top: 50px;
-    cursor: pointer;
-    
+button{
+  text-align: center;
+  width: 50%;
+  height: 1.5rem;
+  background: #160045;
+  color: #f5dadf;
+  border-radius: 10px;
+}
+
+.valicard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 
-
-#nome2{
-    float: right;
-    border: none;
-    position: absolute;
-    right: 380px;
-    bottom: 50px;
-    
-
+.cartao{
+  background: #160045;
+  border-radius: 10px;
+  height: 300px;
+  width: 470px;
+  display: inline-flex;
+  flex-wrap: wrap;
 }
 
-#cartaobox{
-    float: right;
-    position: absolute;
-    border: #160045;
-    color: #f5dadf;
-    background-color: #160045;
-    border-radius: 10px;
-    right: 200px;
-    top: 180px;
-    width: 500px;
-    height: 300px;
+.chipImg{
+  border-radius: 10px;
+  margin: 10% 0% 5% 5%;
 }
 
-#chip{
-    position: absolute;
-    border: 1px;
-    right: 380px;
-    top: 70px;
-    border-radius: 20px ;
+.cardInfo{
+  color: #f5dadf;
+  background-color: #160045;
+  width: 100%;
+  height: 10%;
+  margin: 0% 5%;
+  font-size: 1.5rem;
 }
 
-.clone1{
-    float: right;
-    background-color: transparent;
-    color: #f5dadf;
-    font-family: 'Helvetica';
-    font-size: 45%;
-    letter-spacing: 2px;
-    border-color: white;
-    border-color: transparent;
+.dateInfo, .text{
+  margin: 0%;
+  background: #160045;
+  color: #f5dadf;
+  font-size: 1.5rem;
+  margin: 0% 0% 2% 5%;
 }
 
-#clonenome{
-    position: absolute;
-    top: 80%;
-    right: 30%;
-    width: 300px;
-
+figure{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
-
-#clonecc{
-    position: absolute;
-    top: 55%;
-    right: 10%;
-    width: 400px;
-    font-size: 60%;
-}
-
-#clonemes{
-    position: absolute;
-    top: 80%;
-    right: 3%;
-    width: 100px;
-}
-
-.github{
-    position: absolute;
-    float: right;
-    left: 1500px;
-    bottom: 120px;
-    cursor: pointer;
-}
-
-.linkedin{
-    position: absolute;
-    float: right;
-    left: 1500px;
-    bottom: 10px;
-    cursor: pointer;
-}
-
