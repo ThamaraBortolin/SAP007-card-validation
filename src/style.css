@@ -1,17 +1,316 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
 
 body{
-  background-color: aqua;
+  width: 100%;
+  height: 100%;
+  background: #160045;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #f5dadf;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  height: 10%;
+}
+
+.prin{
+  font-size: 2rem;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.prin::before{
+  content: "✦";
+}
+
+.prin2{
+  margin-top: 30%;
+}
+
+.main{
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 5% ;
+}
+
+nav{
+  margin-left: 1%;
+}
+
+.sec1{
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 10%;
+}
+
+main{
+  width: 70%;
+  height: 650px;
+  display: flex;
+  background-color: #f5dadf;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 
-@media only screen and (max-width:1000px){
+.add{
+  color: #160045;
+  margin-top: 10%;
+  font-size: 2vmax;
+}
+
+.forms{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+}
+
+
+.dados{
+  height:3vh;
+  width: 100%;
+  border: solid 2px #160045;
+  border-radius: 5px;
+  background-color: #f1c2cb;
+  text-align: center;
+  margin-bottom: 20%;
+}
+
+.origin::placeholder{
+  color: #160045;
+  text-align: center;
+}
+
+.valid{
+  display: inline-flex;
+  justify-content:center;
+}
+
+.date{
+  width: 20%;
+  height:20px;
+  border: solid 2px #160045;
+  border-radius: 5px;
+  background-color: #f1c2cb;
+  text-align: center;
+  margin: 0% 2% 10% 0%;
+}
+
+#valid{
+  color: #160045;
+  margin-right: 2%;
+  font-weight: bolder;
+}
+
+input::placeholder{
+  color: #160045;
+}
+
+button{
+  text-align: center;
+  width: 50%;
+  height: 1.5rem;
+  background: #160045;
+  color: #f5dadf;
+  border-radius: 10px;
+}
+
+.valicard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cartao{
+  background: #160045;
+  border-radius: 10px;
+  height: 300px;
+  width: 470px;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.chipImg{
+  border-radius: 10px;
+  margin: 10% 0% 5% 5%;
+}
+
+.cardInfo{
+  color: #f5dadf;
+  background-color: #160045;
+  width: 100%;
+  height: 10%;
+  margin: 0% 5%;
+  font-size: 1.5rem;
+}
+
+.dateInfo, .text{
+  margin: 0%;
+  background: #160045;
+  color: #f5dadf;
+  font-size: 1.5rem;
+  margin: 0% 0% 2% 5%;
+}
+
+figure{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+@media screen and (max-width: 1271px) {
+
   body{
-    background-color: black;
+    height: 100%;
+    width: 100%;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    height: max-content;
+    height: 80%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+  }
+
+  h1{
+    margin: 0% 5% 0% 5%;
+    font-size: 5rem;
+  }
+
+  .add{
+    font-size: 2rem;
+  }
+
+  .forms{
+    width: 100%;
+  }
+
+  .dados{
+    width: 50%;
+    margin: 5%;
+    font-size: 1.3rem;
+  }
+
+  .dados::placeholder{
+    font-size: 1.3rem;
+  }
+
+  .valid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+
+  #valid{
+    font-size: 1.3rem;
+  }
+
+  .date{
+    height: 30px;
+    align-self: center;
+    margin-right: 2%;
+    font-size: 1.3rem;
+
+  }
+
+  .date::placeholder{
+    font-size: 1.3rem;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  button{
+    width: 30%;
+    margin-bottom: 5%;
+    font-size: 1.3rem;
   }
 }
 
-@media only screen and (max-width:800px){
+@media(max-device-width:640px){
   body{
-    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  main{
+    height: 75vh;
+    padding-bottom: 5%;
+  }
+}
+
+@media(max-device-width:535px){
+
+  nav{
+    margin-right: 5%;
+  }
+  li{
+    margin:15%;
+    font-size: 1.3rem;
+  }
+}
+
+@media(max-device-width:435px){
+  .logo{
+    height: 200px;
+    width: auto;
+  }
+  .add{
+    font-size: 2.6rem;
+  }
+
+  .forms{
+    margin: 0;
+  }
+
+  .dados, button{
+    height: 60px;
+
+  }
+
+  .date{
+    height: 40px;
+    margin-bottom: 5%;
+  }
+
+  .cartao{
+    height: 400px;
+    width: 600px;
+  }
+  
+  .cardInfo, .dateInfo, .text{
+    font-size: 2rem;
+  }
+
+  .text{
+    margin: 0;
   }
 }
