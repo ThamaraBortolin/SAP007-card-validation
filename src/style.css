@@ -1,7 +1,3 @@
-
-  /* #160045;
-#f5dadf*/
-
 *{
   border: 0;
   margin: 0;
@@ -123,6 +119,10 @@ form{
   font-weight: bolder;
 }
 
+input::placeholder{
+  color: #160045;
+}
+
 button{
   text-align: center;
   width: 50%;
@@ -210,6 +210,7 @@ figure{
   .dados{
     width: 50%;
     margin: 5%;
+    font-size: 1.3rem;
   }
 
   .dados::placeholder{
@@ -230,7 +231,9 @@ figure{
   .date{
     height: 30px;
     align-self: center;
-    margin: 0;
+    margin-right: 2%;
+    font-size: 1.3rem;
+
   }
 
   .date::placeholder{
@@ -249,5 +252,65 @@ figure{
     width: 30%;
     margin-bottom: 5%;
     font-size: 1.3rem;
+  }
+}
+
+@media(max-device-width:640px){
+  body{
+    width: 100vw;
+    height: 100vh;
+  }
+
+  main{
+    height: 75vh;
+    padding-bottom: 5%;
+  }
+}
+
+@media(max-device-width:535px){
+
+  nav{
+    margin-right: 5%;
+  }
+  li{
+    margin:15%;
+    font-size: 1.3rem;
+  }
+}
+
+@media(max-device-width:435px){
+  .logo{
+    height: 200px;
+    width: auto;
+  }
+  .add{
+    font-size: 2.6rem;
+  }
+
+  .forms{
+    margin: 0;
+  }
+
+  .dados, button{
+    height: 60px;
+
+  }
+
+  .date{
+    height: 40px;
+    margin-bottom: 5%;
+  }
+
+  .cartao{
+    height: 400px;
+    width: 600px;
+  }
+  
+  .cardInfo, .dateInfo, .text{
+    font-size: 2rem;
+  }
+
+  .text{
+    margin: 0;
   }
 }
