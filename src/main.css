@@ -1,0 +1,20 @@
+body{
+    background-color: aliceblue;
+}
+
+@media(max-device-width: 500px){
+    body{
+        background-color: blue;
+    }
+}
+
+
+
+
+
+/*@media(max-width: 1000px){
+    body{
+        background-color: aqua;
+    }
+}*/
+
