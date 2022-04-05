@@ -262,8 +262,9 @@ figure{
   }
 
   main{
-    height: 75vh;
+    height: 70vh;
     padding-bottom: 5%;
+    margin: 0;
   }
 }
 
